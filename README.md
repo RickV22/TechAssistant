@@ -1,4 +1,4 @@
-# Mi Primer Proyecto: TechAssistant 🚀💻
+# TechAssistant 🤖💻
 
 Proyecto de estudios, una aplicación de soporte técnico que usa inteligencia artificial para ayudar a resolver problemas de computadoras.
 
