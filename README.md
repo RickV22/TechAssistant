@@ -1,39 +1,31 @@
-# TechAssistant 🤖💻
+# Mi Primer Proyecto: TechAssistant 🚀💻
 
-**TechAssistant** es una aplicación Android moderna diseñada para ofrecer soporte técnico automatizado utilizando la potencia de la **API de Gemini (modelo 2.5 Flash-Lite)** a través de **Firebase Vertex AI**.
+¡Hola! Este es mi proyecto de estudios donde estoy aprendiendo a desarrollar apps para Android. Es una aplicación de soporte técnico que usa inteligencia artificial para ayudar a resolver problemas de computadoras.
 
-La aplicación actúa como un técnico experto amable, proporcionando soluciones claras, concisas y naturales a problemas de computación, redes y dispositivos.
+La idea es que puedas escribir qué le pasa a tu PC (como "mi pantalla se ve azul" o "no tengo internet") y un técnico virtual te ayuda paso a paso.
 
-## ✨ Características
+## 📚 Lo que estoy aprendiendo con esta App
 
-- **Soporte Técnico con IA**: Diagnósticos precisos y paso a paso para tus problemas técnicos.
-- **Historial de Chats**: Guarda tus consultas automáticamente en una base de datos local (**Room**) para consultarlas más tarde.
-- **Contexto de Conversación**: La IA recuerda mensajes anteriores dentro de la misma sesión para un diálogo fluido.
-- **Diseño Moderno**: Interfaz minimalista con modo oscuro profundo, burbujas de chat elegantes y animaciones fluidas.
-- **Persistencia Local**: Gestión de múltiples sesiones de chat (Crear, Seleccionar, Borrar).
+- **Kotlin y Jetpack Compose**: Estoy practicando cómo hacer interfaces modernas y bonitas.
+- **IA con Gemini**: Aprendí a conectar la API de Google (Gemini 2.5) para que la app pueda "pensar" y responder.
+- **Bases de Datos (Room)**: Al principio me costó mucho configurar esto (¡tuve problemas con KSP!), pero logré que la app guarde el historial de los chats para que no se borren.
+- **Arquitectura**: Estoy intentando separar la lógica de la pantalla usando ViewModels.
 
-## 🛠️ Tecnologías utilizadas
+## ✨ Cosas que hace la app
 
-- **Kotlin** & **Jetpack Compose** para la interfaz de usuario.
-- **Firebase Vertex AI (Gemini 2.5 Flash-Lite)** para el motor de IA.
-- **Room Persistence Library** para el almacenamiento local del historial.
-- **Corrutinas** & **Flow** para la gestión de estados asíncronos.
-- **Material 3** para componentes de diseño moderno.
+- Te responde como si fuera un técnico experto pero buena onda.
+- Guarda tus conversaciones para que puedas verlas después.
+- Tiene un diseño oscuro (Dark Mode) porque me gusta cómo se ve.
+- ¡Ahora ya mantiene el hilo de la conversación y no se olvida de lo que hablamos!
 
-## 🚀 Cómo empezar
+## 🛠️ Cómo probarlo (Si eres estudiante como yo)
 
-### Requisitos previos
+1. Clona el proyecto.
+2. **IMPORTANTE**: Tienes que poner tu propio archivo `google-services.json` de Firebase en la carpeta `/app`, porque el mío no lo subí por seguridad (¡GitHub me mandó un aviso de secretos! 😅).
+3. Abre el proyecto en Android Studio y dale a Play.
 
-1.  Tener instalado **Android Studio**.
-2.  Un dispositivo Android o emulador con acceso a internet.
-3.  Configurar un proyecto en la consola de Firebase y habilitar **Vertex AI**.
-
-### Configuración
-
-1.  Clona este repositorio.
-2.  Añade tu archivo `google-services.json` en la carpeta `app/`.
-3.  Asegúrate de que el SDK de Firebase Vertex AI esté configurado correctamente en tu proyecto de Firebase.
-4.  ¡Compila y ejecuta!
+## ⚠️ Nota sobre los "Secretos" de GitHub
+Si lo vas a subir a tu propio repo, ten cuidado con las claves de la API. Aprendí a la mala que GitHub detecta si dejas claves privadas a la vista. ¡Asegúrate de configurar bien el `.gitignore`!
 
 ---
-Desarrollado con ❤️ para ayudar a resolver problemas técnicos de forma rápida y sencilla.
+¡Gracias por ver mi proyecto! Sigo estudiando para mejorar cada día. 💪
