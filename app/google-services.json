@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "903145342488",
+    "project_id": "com-example-techassistan-7265c",
+    "storage_bucket": "com-example-techassistan-7265c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903145342488:android:80ced0170dd558923c656d",
+        "android_client_info": {
+          "package_name": "com.example.techassistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1A2Hzt7NZhwOcf_-FcbXmna9k6-yLaGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

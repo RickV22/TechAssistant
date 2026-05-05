@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TechAssistant</string>
+    <string name="tech_support_title">Asistente Técnico</string>
+    <string name="label_problem">Describe tu problema técnico</string>
+    <string name="action_diagnose">Diagnosticar</string>
+    <string name="status_consulting">Consultando...</string>
+    <string name="error_empty_problem">Por favor, describe el problema antes de diagnosticar.</string>
+    <string name="results_placeholder">La solución aparecerá aquí...</string>
+</resources>
